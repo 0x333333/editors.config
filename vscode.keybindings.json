@@ -1,0 +1,30 @@
+// Place your key bindings in this file to overwrite the defaults
+[{
+    "key": "cmd+'",
+    "command": "workbench.action.debug.stepOver",
+    "when": "inDebugMode"
+  }, {
+    "key": "cmd+;",
+    "command": "workbench.action.debug.stepInto",
+    "when": "inDebugMode"
+  }, {
+    "key": "cmd+k w",
+    "command": "workbench.action.closeActiveEditor"
+  }, {
+    "key": "cmd+w",
+    "command": "workbench.files.action.closeFile"
+  },
+  {
+    "key": "ctrl+-",
+    "command": "workbench.action.zoomOut"
+  }, {
+    "key": "ctrl+=",
+    "command": "workbench.action.zoomIn"
+  }, {
+    "key": "cmd+-",
+    "command": "workbench.action.navigateBack"
+  }, {
+    "key": "cmd+shift+-",
+    "command": "workbench.action.navigateForward"
+  }
+]
